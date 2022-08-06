@@ -3,13 +3,13 @@ import React from 'react';
 const RemoveFavourites = () => {
 	return (
 		<>
-			<span className='mr-2'>Remove from favourites</span>
+			<span style={{ marginRight: "8px" }}>Remove from favourites</span>
 			<svg
 				width='1em'
 				height='1em'
 				viewBox='0 0 16 16'
 				classNameclass='bi bi-x-square'
-				fill='currentColor'
+				fill='white'
 				xmlns='http://www.w3.org/2000/svg'
 			>
 				<path
